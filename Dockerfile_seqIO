@@ -85,6 +85,7 @@ RUN cpanm Test::Most \
  XML::Twig XML::Writer \
  XML::Simple \
  Bio::DB::EUtilities
+ Bio::SeqIO
 
 RUN apt-get install -y \
  libxml-libxml-perl \
